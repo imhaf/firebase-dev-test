@@ -8,12 +8,13 @@
     "deploy": "firebase deploy --only functions",
     "logs": "firebase functions:log"
   },
-  "type": "module",
+  "type": "commonjs",
   "engines": {
     "node": "16"
   },
   "main": "index.js",
   "dependencies": {
+    "firebase-admin": "^11.0.1",
     "firebase-functions": "^3.24.0"
   },
   "devDependencies": {
