@@ -18,3 +18,8 @@ nav ul li:first-child a {
 nav ul li:last-child a {
   border-radius: 0 15px 15px 0;
 }
+nav ul li.active a {
+  font-weight: bold;
+  background: #7687e8;
+  color: white;
+}
